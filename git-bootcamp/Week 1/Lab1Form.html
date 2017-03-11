@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--Travis Rand
+    1/28/17-->
+<html>
+    <head>
+        <title>Register</title>
+    </head>
+    <body>
+        <h1 style="dispay:inline;">Register</h1>
+        <form>
+        <p style="display:inline;">First Name:</p><input type="text" name="firstName" placeholder="John" required/>
+        <p style="display:inline;">Last Name</p><input type="text" name="lastName" placeholder="Smith" required/>
+        <br>
+        <p style="display:inline;">Male</p>
+        <input type="radio" name="gender" value="male" display="inline"/>
+        <p style="display:inline;">Female</p>
+        <input type="radio" name="gender" value="female" display="inline"/>
+        <p style="display:inline;">Other</p>
+        <input type="radio" name="gender" value="other" display="inline"/>
+        <br>
+        <p style="display:inline">Email:</p>
+        <input type="email" name="email" display="inline" required/>
+        <p style="display:inline;">Password:</p>
+        <input type="password" name="password" display="inline" pattern="{5,10}" title="Must be between 5-10 characters" required/>
+        <br>
+        <p style="display:inline">Birthday:</p>
+        <input type="date"/>
+        <br>
+        <p style="display:inline">I agree to the terms and conditions</p>
+        <input type="checkbox" value="checkbox"/>
+        <br>
+        <input type="submit"/>
+        </form>
+    </body>
+</html>

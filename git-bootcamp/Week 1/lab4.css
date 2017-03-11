@@ -1,0 +1,32 @@
+body {
+  background-color: grey;
+}
+.container {
+  background-color: white;
+  margin: 4px 4px 4px 4px;
+
+}
+.article {
+  padding-top: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+h3 {
+  color: blue;
+}
+.centerDivide {
+  background-color: grey;
+  width: 90%;
+  height: .25%;
+  margin-left: 5%;
+}
+.verticleLine {
+  background-color: grey;
+  height: 15%;
+  width: .7%;
+  float: left;
+}
+.secondP {
+  clear: both;
+  /*HOW DO YOU MAKE THE VERTICLE LINE ADJUST RELATIVE TO THE FIRST P???*/
+}

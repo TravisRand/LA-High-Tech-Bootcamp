@@ -1,0 +1,83 @@
+/* Travis Rand
+    2-1-17 */
+body {
+    font-family: Arial;
+    background-color: black;
+    max-height:
+}
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px green;
+    font-size: 400%;
+    background-color: black;
+}
+
+span {
+    text-shadow: -3px 0px 1px #86b300;
+}
+
+nav {
+    background-color: #86b300;
+    padding: 1px 0px 1px 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -50px;
+}
+
+a {
+    color: black;
+}
+
+p {
+    display: inline;
+}
+
+.main {
+    background-color: white;
+    height: 50%;
+    margin-top: -10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+img {
+    height: 90%;
+    width: 90%;
+    margin-bottom: 15px;
+}
+li  {
+    display: inline;
+}
+.footer {
+    background-color: #86b300;
+    clear: both;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.nearbyLeft {
+    /*display: inline;*/
+    float: left;
+    width: 40%;
+}
+.nearbyRight {
+    float: right;
+    width: 60%;
+}
+.nearbyRightPics {
+    width: 50%;
+}
+.mustSee {
+  display: list-item;;
+  list-style-position: inside;
+}
+#phoneNumber {
+  color: blue;
+}
